@@ -1,0 +1,23 @@
+.field {
+	display: block;
+	/*flex-wrap: nowrap;*/
+}
+
+.field-row {
+	display: block;
+	white-space: nowrap;
+	padding: 0;
+	margin-bottom: -4px;
+}
+
+.field-cell {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border: 1px solid black;
+}
+
+.field-cell_filled {
+	background: black;
+	boder-color: white;
+}
